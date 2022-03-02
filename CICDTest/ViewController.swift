@@ -11,6 +11,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var firstTextField: UITextField!
     
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    
+    @IBAction func firstButtonClicked(_ sender: UIButton) {
+        resultLabel.text = firstTextField.text
+    }
     
     func calculateTextFieldCount() -> Int {
         return firstTextField.text?.count ?? 0
