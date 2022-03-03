@@ -22,6 +22,9 @@
 		C2D4A8F327CF042C00B6FE69 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8F227CF042C00B6FE69 /* Validator.swift */; };
 		C2D4A8F527CF04AD00B6FE69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8F427CF04AD00B6FE69 /* User.swift */; };
 		C2D4A8F727CF063400B6FE69 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8F627CF063400B6FE69 /* ValidatorTests.swift */; };
+		C2D4A8F927D0449300B6FE69 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8F827D0449300B6FE69 /* APIServiceTests.swift */; };
+		C2D4A8FB27D044E100B6FE69 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8FA27D044E100B6FE69 /* APIService.swift */; };
+		C2D4A8FD27D0479700B6FE69 /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A8FC27D0479700B6FE69 /* LottoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		C2D4A8F227CF042C00B6FE69 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		C2D4A8F427CF04AD00B6FE69 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C2D4A8F627CF063400B6FE69 /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		C2D4A8F827D0449300B6FE69 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		C2D4A8FA27D044E100B6FE69 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C2D4A8FC27D0479700B6FE69 /* LottoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 				C2D4A8EE27CEFBCD00B6FE69 /* LogInViewController.swift */,
 				C2D4A8F227CF042C00B6FE69 /* Validator.swift */,
 				C2D4A8F427CF04AD00B6FE69 /* User.swift */,
+				C2D4A8FA27D044E100B6FE69 /* APIService.swift */,
+				C2D4A8FC27D0479700B6FE69 /* LottoModel.swift */,
 			);
 			path = CICDTest;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				C2ADF18027CC593D00A4DD0D /* CICDTestTests.swift */,
 				C2D4A8F027CEFE3600B6FE69 /* LogInViewControllerTests.swift */,
 				C2D4A8F627CF063400B6FE69 /* ValidatorTests.swift */,
+				C2D4A8F827D0449300B6FE69 /* APIServiceTests.swift */,
 			);
 			path = CICDTestTests;
 			sourceTree = "<group>";
@@ -277,10 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D4A8EF27CEFBCD00B6FE69 /* LogInViewController.swift in Sources */,
+				C2D4A8FB27D044E100B6FE69 /* APIService.swift in Sources */,
 				C2ADF16E27CC593B00A4DD0D /* ViewController.swift in Sources */,
 				C2D4A8F527CF04AD00B6FE69 /* User.swift in Sources */,
 				C2D4A8F327CF042C00B6FE69 /* Validator.swift in Sources */,
 				C2ADF16A27CC593B00A4DD0D /* AppDelegate.swift in Sources */,
+				C2D4A8FD27D0479700B6FE69 /* LottoModel.swift in Sources */,
 				C2ADF16C27CC593B00A4DD0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +302,7 @@
 			files = (
 				C2D4A8F727CF063400B6FE69 /* ValidatorTests.swift in Sources */,
 				C2D4A8F127CEFE3600B6FE69 /* LogInViewControllerTests.swift in Sources */,
+				C2D4A8F927D0449300B6FE69 /* APIServiceTests.swift in Sources */,
 				C2ADF18127CC593D00A4DD0D /* CICDTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
